@@ -1,0 +1,20 @@
+{
+  "selected_model": "Ridge regression",
+  "feature_columns": [
+    "consumption_lag_1h",
+    "consumption_lag_24h",
+    "consumption_lag_168h",
+    "rolling_mean_24h",
+    "rolling_mean_168h",
+    "outdoor_temp_c",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "year_day_sin",
+    "year_day_cos",
+    "is_weekend"
+  ],
+  "target": "next-hour consumption_kwh",
+  "training_scope": "refitted on all available history after holdout evaluation"
+}

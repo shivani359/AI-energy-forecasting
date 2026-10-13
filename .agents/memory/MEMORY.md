@@ -1,0 +1,1 @@
+- [Energy-forecasting proof project](energy-forecasting.md) — student portfolio demo must stay reproducible from simulated data and avoid claims of real-world savings.

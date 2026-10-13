@@ -1,0 +1,12 @@
+{
+  "model": "Ridge regression",
+  "horizon_hours": 48,
+  "forecast_energy_kwh": 4987.61,
+  "illustrative_tariff_per_kwh": 8.0,
+  "illustrative_cost": 39900.9,
+  "historical_90th_percentile_kwh": 120.7,
+  "predicted_peak_hour": "2024-06-30T13:00:00",
+  "predicted_peak_kwh": 128.41,
+  "forecast_csv": "outputs/next_48_hours_forecast.csv",
+  "cost_is_illustrative": true
+}

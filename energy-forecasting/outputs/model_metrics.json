@@ -1,0 +1,44 @@
+{
+  "selected_model": "Ridge regression",
+  "split": "chronological 80% train / 20% test",
+  "target": "next-hour consumption_kwh",
+  "test_start": "2024-05-25T09:00:00",
+  "test_end": "2024-06-28T23:00:00",
+  "train_rows": 3321,
+  "test_rows": 831,
+  "feature_columns": [
+    "consumption_lag_1h",
+    "consumption_lag_24h",
+    "consumption_lag_168h",
+    "rolling_mean_24h",
+    "rolling_mean_168h",
+    "outdoor_temp_c",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "year_day_sin",
+    "year_day_cos",
+    "is_weekend"
+  ],
+  "metrics": [
+    {
+      "model": "Seasonal naive (24-hour)",
+      "rmse_kwh": 7.299096831605953,
+      "mae_kwh": 5.6604055354993985,
+      "r2": 0.8647650999826948
+    },
+    {
+      "model": "Ridge regression",
+      "rmse_kwh": 4.682636339220241,
+      "mae_kwh": 3.7426368411801807,
+      "r2": 0.944341513032055
+    },
+    {
+      "model": "Random forest",
+      "rmse_kwh": 5.362380745201683,
+      "mae_kwh": 4.280385585225724,
+      "r2": 0.9270095858425085
+    }
+  ]
+}

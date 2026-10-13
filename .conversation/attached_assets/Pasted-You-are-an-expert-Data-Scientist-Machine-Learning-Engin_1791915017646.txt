@@ -1,0 +1,227 @@
+You are an expert Data Scientist, Machine Learning Engineer, Energy Analytics Specialist, Python Developer, Business Analyst, and GitHub Mentor.
+
+Your task is to help me build a complete industry-oriented project titled:
+
+“AI-Powered Energy Consumption Forecasting System”
+
+IMPORTANT CONTEXT:
+- I am a student.
+- I want this project to act as proof of work on GitHub.
+- I do not have access to real corporate energy systems.
+- So I want to build this project using DATASETS and VIRTUAL SIMULATION.
+- I want the output in a beginner-friendly, step-by-step, practical format.
+- I want the project to look realistic and aligned with industry use cases.
+- I want full code, explanation, GitHub steps, folder structure, documentation, and proof-building strategy.
+- I want to showcase this project for placements, internships, and off-campus opportunities.
+
+NOW DO ALL OF THE FOLLOWING IN EXTREME DETAIL.
+
+--------------------------------------------------
+1️⃣ PROJECT EXPLANATION
+--------------------------------------------------
+Explain clearly:
+
+- What is AI-Based Energy Consumption Forecasting?
+- What problem does it solve?
+- Why is it important in industries like:
+  - smart cities
+  - electricity boards
+  - manufacturing plants
+  - data centers
+  - renewable energy companies
+- How companies use forecasting to reduce cost and optimize energy usage
+
+Explain in:
+- simple language
+- then technical language
+
+Also explain full workflow:
+- data collection (historical energy usage)
+- preprocessing
+- feature engineering
+- model training
+- forecasting future values
+- evaluation
+- visualization
+
+--------------------------------------------------
+2️⃣ CHOOSE THE BEST BEGINNER-FRIENDLY TECH STACK
+--------------------------------------------------
+Give 3 options:
+
+Option A: easiest  
+Option B: intermediate  
+Option C: advanced  
+
+For each include:
+- tools/libraries
+- model types (Linear Regression, Random Forest, ARIMA, LSTM, etc.)
+- difficulty
+- whether GPU is required
+- expected output
+
+Then SELECT ONE BEST option for a student who wants:
+- quick execution
+- strong GitHub proof
+- clear understanding
+
+Prefer tools like:
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Scikit-learn
+- simple regression models or time-series models
+
+--------------------------------------------------
+3️⃣ COMPLETE PROJECT ARCHITECTURE
+--------------------------------------------------
+Design architecture:
+
+Explain:
+- input data (time-series energy data)
+- preprocessing
+- feature engineering
+- model training
+- forecasting system
+- output visualization
+
+Also include:
+- text-based block diagram
+- module explanation
+- data flow
+
+--------------------------------------------------
+4️⃣ FULL PROJECT IMPLEMENTATION PLAN
+--------------------------------------------------
+Break into phases:
+
+Phase 1 – Setup  
+Phase 2 – Dataset loading  
+Phase 3 – Data cleaning  
+Phase 4 – Feature engineering  
+Phase 5 – Model building  
+Phase 6 – Evaluation  
+Phase 7 – Forecasting  
+Phase 8 – Visualization  
+Phase 9 – GitHub publishing  
+Phase 10 – Final output  
+
+For each phase:
+- what to do
+- why it is done
+- expected output
+- common mistakes
+- how to verify
+
+--------------------------------------------------
+5️⃣ COMPLETE FOLDER STRUCTURE
+--------------------------------------------------
+Create GitHub-ready structure:
+
+AI-Energy-Forecasting/
+│
+├── data/
+├── notebooks/
+├── src/
+├── models/
+├── outputs/
+├── images/
+├── docs/
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── main.py
+
+Customize and explain each folder.
+
+--------------------------------------------------
+6️⃣ INSTALLATION AND ENVIRONMENT SETUP
+--------------------------------------------------
+Provide:
+
+- Python version
+- libraries
+- pip install commands
+- virtual environment setup
+- requirements.txt
+
+Include:
+- Windows steps
+- Mac/Linux steps
+
+--------------------------------------------------
+7️⃣ COMPLETE WORKING CODE
+--------------------------------------------------
+Provide full code including:
+
+- dataset loading
+- preprocessing
+- feature engineering
+- model training
+- forecasting
+- evaluation (RMSE, R²)
+- visualization (graphs)
+
+Requirements:
+- modular
+- beginner-friendly
+- well-commented
+
+For each file:
+- file name
+- code
+- explanation
+
+--------------------------------------------------
+8️⃣ VIRTUAL SIMULATION IMPLEMENTATION
+--------------------------------------------------
+Explain:
+
+- how dataset represents real-world energy usage
+- how forecasting simulates real business decisions
+- how predictions help companies
+
+Provide step-by-step simulation:
+
+Step 1
+Step 2
+Step 3
+...
+
+Also include:
+- graphs to generate
+- outputs to save
+- proof to capture
+
+--------------------------------------------------
+9️⃣ HOW TO RUN THE PROJECT
+--------------------------------------------------
+Explain:
+
+- how to run code
+- how to train model
+- how to generate predictions
+- how to visualize results
+
+Also include:
+- sample outputs
+- expected graphs
+
+--------------------------------------------------
+🔟 GITHUB UPLOAD STRATEGY
+--------------------------------------------------
+Explain:
+
+- repository creation
+- pushing code
+- commit strategy
+- uploading visuals
+- making repo professional
+
+Include:
+- git commands
+- best repo name
+- description
+- tags
+-

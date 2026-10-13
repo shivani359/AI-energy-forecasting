@@ -1,0 +1,19 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local input and generated binary models
+data/raw/*.csv
+models/*.joblib
+
+# Keep small, useful demo evidence under version control.
+# Ignore ad-hoc output files over 20 MB; keep generated sample CSVs and PNGs.
+*.log
+.DS_Store
+Thumbs.db
